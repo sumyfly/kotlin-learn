@@ -48,7 +48,8 @@ abstract class PumpModule {
 
 @Module(includes = arrayOf(PumpModule::class))
 class DripCoffeeModule {
-    @Provides @Singleton
+    @Provides
+    @Singleton
     fun provideHeater(): Heater = ElectricHeater()
 }
 

@@ -1,6 +1,11 @@
 package com.code.kotlin
 
+import java.io.File
+
 fun main(args: Array<String>) {
-    val a = 100
-    print(a)
+    val list = ArrayList<Int>()
+    list.add(1)
+    list.add(2)
+    print(list)
+    
 }
